@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>116 on top</title>
+    <link rel="stylesheet" href="./ph.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ldrs/dist/auto/leapfrog.js"></script>
+
+</head>
+
+<body>
+    <div id="loading-screen">
+        <div class="container">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+        <p>Loading...</p>
+    </div>
+
+    <div class="ho1">
+
+        <h1>WELCOME TO BORNHUB</h1>
+
+    </div>
+
+    <div class="d1">
+        <img src="./images/4k-jesus-gazes-town-s8u1q93scjz48spq.jpg" alt="jesuse">
+    </div>
+    <div class="container">
+
+        <p id="prag">DO YOU WANNA SEE AOME CAT?</p>
+
+
+
+        <button class="watch-more" onclick="checkAnswer('YES')">YES</button>
+        <button class="watch-more" onclick="checkAnswer('NO')">NO</button>
+        <span class="circle" aria-hidden="true">
+    </div>
+    <div id="loading">
+        <div class="spinner"></div>
+        <p>Loading...</p>
+    </div>
+
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#ffb22c" fill-opacity="1"
+            d="M0,128L60,160C120,192,240,256,360,245.3C480,235,600,149,720,133.3C840,117,960,171,1080,192C1200,213,1320,203,1380,197.3L1440,192L1440,320L0,320Z">
+        </path>
+    </svg>
+
+    <script>
+        if (Notification.permission !== "granted") {
+            Notification.requestPermission();
+        }
+
+        function checkAnswer(answer) {
+            const correctAnswer = "NO";
+            if (answer.toUpperCase() === correctAnswer) {
+                window.location.href = "./ph2.html";
+            } else {
+                showNotification("Oops! You lost", "You are not original");
+            }
+        }
+
+
+        function showNotification(title, message) {
+            if (Notification.permission === "granted") {
+                new Notification(title, {
+                    body: message,
+                    icon: "https://example.com/icon.png"
+                });
+            } else {
+                alert("Oops! You lost. You are not origin.");
+            }
+        }
+        function checkAnswer(answer) {
+            const correctAnswer = "NO";
+            if (answer.toUpperCase() === correctAnswer) {
+                document.getElementById("loading-screen").style.display = "flex"; // نمایش لودینگ
+                setTimeout(() => {
+                    window.location.href = "./ph2.html"; // بعد از ۲ ثانیه، رفتن به صفحه بعد
+                }, 2000);
+            } else {
+                showNotification("Oops! You lost", "You are not original");
+            }
+        }
+
+
+
+    </script>
+    <h6 id="h6">© CREATED BY ARS0H1A</h6>
+
+</body>
+
+</html>

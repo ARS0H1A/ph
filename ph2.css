@@ -1,0 +1,420 @@
+body {
+    background-color: black;
+    color: orange;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.D1 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(79, 0, 153);
+    margin: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    box-shadow: 2px 2px 20px rgb(192, 1, 192);
+    overflow: hidden;
+    margin-bottom: 100px;
+    border-radius: 15%;
+}
+
+.D2 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(79, 0, 153);
+    margin-left: auto;
+    padding: 0;
+    box-shadow: 2px 2px 20px rgb(192, 1, 192);
+    overflow: hidden;
+    margin-bottom: 100px;
+    border-radius: 15%;
+}
+
+.D3 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(79, 0, 153);
+    margin: 10px;
+    padding: 0;
+    box-shadow: 2px 2px 20px rgb(192, 1, 192);
+    overflow: hidden;
+    border-radius: 15%;
+    margin-bottom: 100px;
+}
+
+.D4 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(79, 0, 153);
+    margin-left: auto;
+    padding: 0;
+    box-shadow: 2px 2px 20px rgb(192, 1, 192);
+    overflow: hidden;
+    margin-bottom: 100px;
+    border-radius: 15%;
+}
+
+.D5 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(79, 0, 153);
+    margin: 10px;
+    padding: 0;
+    box-shadow: 2px 2px 20px rgb(192, 1, 192);
+    overflow: hidden;
+    margin-bottom: 100px;
+    border-radius: 15%;
+
+}
+
+.D6 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(79, 0, 153);
+    margin-left: auto;
+    padding: 0;
+    box-shadow: 2px 2px 20px rgb(192, 1, 192);
+    overflow: hidden;
+    margin-bottom: 100px;
+    border-radius: 15%;
+}
+
+.D7 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(79, 0, 153);
+    margin: 10px;
+    padding: 0;
+    box-shadow: 2px 2px 20px rgb(192, 1, 192);
+    overflow: hidden;
+    margin-bottom: 100px;
+    border-radius: 15%;
+
+}
+
+.D8 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(79, 0, 153);
+    margin-left: auto;
+    padding: 0;
+    box-shadow: 2px 2px 20px rgb(192, 1, 192);
+    overflow: hidden;
+    margin-bottom: 100px;
+    border-radius: 15%;
+}
+
+.D9 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(79, 0, 153);
+    margin: 10px;
+    padding: 0;
+    box-shadow: 2px 2px 20px rgb(192, 1, 192);
+    overflow: hidden;
+    margin-bottom: 100px;
+    border-radius: 15%;
+
+
+}
+
+.D10 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(79, 0, 153);
+    margin-left: auto;
+    padding: 0;
+    box-shadow: 2px 2px 20px rgb(192, 1, 192);
+    overflow: hidden;
+    margin-bottom: 100px;
+    border-radius: 15%;
+}
+
+.D1 img,
+.D2 img,
+.D3 img,
+.D4 img,
+.D5 img,
+.D6 img,
+.D7 img,
+.D8 img,
+.D9 img,
+.D10 img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15%;
+}
+
+
+button.watch1-more {
+    position: absolute;
+    bottom: 505px;
+    background-color: #0000;
+    box-shadow: 2px 2px 200px rgb(192, 1, 192);
+    color: rgb(192, 1, 192);
+    border: none;
+    border-radius: 35px;
+    padding: 25px 90px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+button.watch1-more:hover {
+    background-color: #ff8c00;
+    color: #000000;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 50px #ff8c00;
+}
+
+button.watch2-more {
+    position: absolute;
+    bottom: 100px;
+    right: 600px;
+    background-color: #0000;
+    box-shadow: 2px 2px 50px rgb(192, 1, 192);
+    color: rgb(192, 1, 192);
+    border: none;
+    border-radius: 35px;
+    padding: 25px 90px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+button.watch2-more:hover {
+    background-color: #ff8c00;
+    color: #000000;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 200px #ff8c00;
+}
+
+button.watch3-more {
+    position: absolute;
+    top: 920px;
+    background-color: #0000;
+    box-shadow: 2px 2px 200px rgb(192, 1, 192);
+    color: rgb(192, 1, 192);
+    border: none;
+    border-radius: 35px;
+    padding: 25px 90px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+button.watch3-more:hover {
+    background-color: #ff8c00;
+    color: #000000;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 50px #ff8c00;
+}
+
+button.watch4-more {
+    position: absolute;
+    top: 1300px;
+    right: 600px;
+    background-color: #0000;
+    box-shadow: 2px 2px 50px rgb(192, 1, 192);
+    color: rgb(192, 1, 192);
+    border: none;
+    border-radius: 35px;
+    padding: 25px 90px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+button.watch4-more:hover {
+    background-color: #ff8c00;
+    color: #000000;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 200px #ff8c00;
+}
+
+button.watch5-more {
+    position: absolute;
+    top: 1726px;
+    background-color: #0000;
+    box-shadow: 2px 2px 200px rgb(192, 1, 192);
+    color: rgb(192, 1, 192);
+    border: none;
+    border-radius: 35px;
+    padding: 25px 90px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+button.watch5-more:hover {
+    background-color: #ff8c00;
+    color: #000000;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 50px #ff8c00;
+}
+
+button.watch6-more {
+    position: absolute;
+    top: 2130px;
+    right: 600px;
+    background-color: #0000;
+    box-shadow: 2px 2px 50px rgb(192, 1, 192);
+    color: rgb(192, 1, 192);
+    border: none;
+    border-radius: 35px;
+    padding: 25px 90px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+button.watch6-more:hover {
+    background-color: #ff8c00;
+    color: #000000;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 200px #ff8c00;
+}
+
+
+button.watch7-more {
+    position: absolute;
+    top: 2530px;
+
+    background-color: #0000;
+    box-shadow: 2px 2px 200px rgb(192, 1, 192);
+    color: rgb(192, 1, 192);
+    border: none;
+    border-radius: 35px;
+    padding: 25px 90px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+button.watch7-more:hover {
+    background-color: #ff8c00;
+    color: #000000;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 50px #ff8c00;
+}
+
+
+button.watch8-more {
+    position: absolute;
+    top: 2940px;
+    right: 600px;
+    background-color: #0000;
+    box-shadow: 2px 2px 50px rgb(192, 1, 192);
+    color: rgb(192, 1, 192);
+    border: none;
+    border-radius: 35px;
+    padding: 25px 90px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+button.watch8-more:hover {
+    background-color: #ff8c00;
+    color: #000000;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 200px #ff8c00;
+}
+
+
+button.watch9-more {
+    position: absolute;
+    top: 3330px;
+    background-color: #0000;
+    box-shadow: 2px 2px 200px rgb(192, 1, 192);
+    color: rgb(192, 1, 192);
+    border: none;
+    border-radius: 35px;
+    padding: 25px 90px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+button.watch9-more:hover {
+    background-color: #ff8c00;
+    color: #000000;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 50px #ff8c00;
+}
+
+
+button.watch10-more {
+    position: absolute;
+    top: 3740px;
+    right: 600px;
+    background-color: #0000;
+    box-shadow: 2px 2px 50px rgb(192, 1, 192);
+    color: rgb(192, 1, 192);
+    border: none;
+    border-radius: 35px;
+    padding: 25px 90px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+button.watch10-more:hover {
+    background-color: #ff8c00;
+    color: #000000;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 200px #ff8c00;
+}
+
+.cop {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .watch-more {
+        width: 80%;
+        padding: 15px 50px;
+    }
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+img {
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
